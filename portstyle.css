@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.navbar {
+    height: 55px;
+}
+
+.navbar-brand {
+    padding-left: 120px;
+}
+ ::selection{
+    background: rgb(88,9,121);
+    background: linear-gradient(90deg, rgba(88,9,121,1) 35%, rgba(255,0,254,1) 100%);   
+ }
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.home {
+    background-image: cover;
+    display: flex;
+    background: url('/myimage1.jpg') no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    width: 100%;
+    margin-top: 0.5%;
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text1 {
+    font-size: 25px;
+}
+
+.home .home-content .text2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text3 {
+    font-size: 40px;
+    margin: 5 0;
+}
+
+.part1 {
+    background: rgb(88,9,121);
+    background: linear-gradient(90deg, rgba(88,9,121,1) 35%, rgba(255,0,254,1) 100%);
+
+     
+}
+a{
+    text-decoration: none!important;
+}
+.btn{
+    background: rgb(88,9,121)!important;
+    background: linear-gradient(90deg, rgba(88,9,121,1) 35%, rgba(255,0,254,1) 100%)!important;
+}
+.btn:hover{
+    background-color:transparent!important;
+
+}
+.quicklinks a:hover{
+    color:rgb(88,9,121)!important;
+}
+.skill-btn {
+     
+
+
+    height: 40px !important;
+    border-radius: 5px;
+    width: auto !important;
+    border: none;
+    margin-bottom: 15px;
+    color: #fff;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    border: none !important;
+    font-size: 12px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background: #0575e6;
+    background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+    background: linear-gradient(to right, #021b79, #0575e6);
+
+}
+
+.skill-btn :hover {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background: #0575e6;
+    background: -webkit-linear-gradient(to right, #0575e6, #021b79);
+    background: linear-gradient(to right, #0575e6, #021b79);
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid purple;
+
+    display: inline-block;
+
+}
+
+.resume-btn {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+    color: white;
+    border: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#edu-table {
+    font-size: 14px !important;
+    overflow: hidden;
+}
+
+.social i {
+    color: rgb(255 0 254);
+
+}
+
+.myimage {
+    text-align: center;
+}
+
+.myimage img {
+    height: 400px !important;
+    width: auto;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.intro {
+    min-height: 400px;
+
+}
+
+.intro-text {
+    padding-top: 10%;
+
+}
+
+.t1 {
+    font-size: 35px;
+}
+
+.t2 {
+    font-size: 60px;
+}
+
+.t3 {
+    font-size: 80px;
+}
+
+.about {
+    border: 1px white solid !important;
+    background: transparent;
+
+}
+
+.about:hover {
+    border: 1px white solid;
+    background: transparent;
+
+}
+
+.quicklinks a {
+    color: black;
+    font-weight: bold;
+}
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }
